@@ -1,0 +1,121 @@
+/* Common Styles */
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 20px; /* Add padding for space around the heading */
+    text-align: center; /* Center-align the heading */
+    font-size: 48px; /* Font size */
+    animation: rainbow-text 5s linear infinite alternate; /* Rainbow animation */
+  }
+  
+  @keyframes rainbow-text {
+    0% { -webkit-text-fill-color: #ff0000; }
+    14% { -webkit-text-fill-color: #ff7f00; }
+    28% { -webkit-text-fill-color: #ffff00; }
+    42% { -webkit-text-fill-color: #00ff00; }
+    57% { -webkit-text-fill-color: #0000ff; }
+    71% { -webkit-text-fill-color: #4b0082; }
+    85% { -webkit-text-fill-color: #9400d3; }
+    100% { -webkit-text-fill-color: #ff0000; }
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+
+  /* Styles for Sign Up Page */
+  
+  #signUpForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #signUpForm input[type="text"],
+  #signUpForm input[type="password"],
+  #signUpForm button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #signUpForm button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #signUpForm button:hover {
+    background-color: #0056b3;
+  }
+  
+  #signUpMessage {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #dc3545;
+  }
+  
+  /* Styles for Login Page */
+  
+  #loginForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #loginForm input[type="text"],
+  #loginForm input[type="password"],
+  #loginForm button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #loginForm button {
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #loginForm button:hover {
+    background-color: #218838;
+  }
+  
+  #loginMessage {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #dc3545;
+  }
+  
+  /* Styles for Home Page */
+  
+  #home {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  /* Add more styles as needed for additional pages */
+  

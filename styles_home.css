@@ -1,0 +1,73 @@
+/* Reset default browser styles */
+body, h2, p, button {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+body {
+  background-color: #f7f7f7;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Styles for book listings */
+.book-listing {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.book-listing h3 {
+  margin: 0 0 10px;
+}
+
+.book-listing p {
+  margin: 5px 0;
+}
+
+/* Button styles */
+button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 5px;
+  padding: 8px 12px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #0056b3;
+}
+
+/* Additional styles for responsiveness */
+@media screen and (max-width: 768px) {
+  .book-listing {
+      width: 90%;
+  }
+}
+
+/* Logout button container */
+.logout-container {
+  position: fixed;
+  bottom: 20px; /* Adjust the bottom margin as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+

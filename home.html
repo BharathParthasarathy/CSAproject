@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="styles_home.css">
+</head>
+<body>
+  <h2>Welcome to the Bookstore!</h2>
+
+  <!-- Book listings -->
+  <div class="book-listing">
+    <h3>My sample Book</h3>
+    <p>Author: Bharath</p>
+    <p>Price: $10.00</p>
+    <button onclick="buyBook('Book Title 1')">Buy</button>
+    <button onclick="addBook('Book Title 1')">Add to Cart</button>
+    <button onclick="viewBook('Book Title 1')">View Details</button>
+    <button onclick="deleteBook('Book Title 1')">Delete</button>
+  </div>
+
+  <div class="book-listing">
+    <h3>Test Book</h3>
+    <p>Author: David Richard</p>
+    <p>Price: $15.00</p>
+    <button onclick="buyBook('Book Title 2')">Buy</button>
+    <button onclick="addBook('Book Title 2')">Add to Cart</button>
+    <button onclick="viewBook('Book Title 2')">View Details</button>
+    <button onclick="deleteBook('Book Title 2')">Delete</button>
+  </div>
+
+  <!-- Logout button container -->
+  <div class="logout-container">
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <button onclick="getData()">Get Data</button>
+  <button onclick="editData()">Edit Data</button>
+  <button onclick="deleteData()">Delete Data</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

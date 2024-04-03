@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bookstore</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="loginForm">
+    <h1>DBS Bookstore</h1>
+    <h2>Log In</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Log In</button>
+    <p id="loginMessage"></p>
+    <a href="signin.html" onclick="showSignUpForm()">Sign Up</a>
+  </div>
+
+  <div id="signUpForm" style="display: none;">
+    <h2>Sign Up</h2>
+    <input type="text" id="newUsername" placeholder="New Username">
+    <input type="password" id="newPassword" placeholder="New Password">
+    <button onclick="signUp()">Sign Up</button>
+    <p id="signUpMessage"></p>
+    <a href="#" onclick="showLogInForm()">Log In</a>
+  </div>
+
+  <div id="home" style="display: none;">
+    <h2>Welcome to the Bookstore!</h2>
+    <!-- Add home page content here -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
